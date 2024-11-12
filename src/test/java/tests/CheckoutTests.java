@@ -36,6 +36,18 @@ public class CheckoutTests {
         Assert.assertTrue(checkoutPage.isOrderSuccessful());
     }
 
+    @Test
+    public void testCheckoutEmptyField() {
+        checkoutPage.checkoutEmptyField();
+        Assert.assertTrue(checkoutPage.isErrorMessageDisplayedWithEmptyField());
+    }
+
+    @Test
+    public void testCheckoutCancellation() {
+        checkoutPage.checkoutCancellation();
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.saucedemo.com/cart.html");
+    }
+
     @AfterMethod
     public void tearDown() {
         driver.quit();

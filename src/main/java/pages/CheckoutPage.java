@@ -19,6 +19,20 @@ public class CheckoutPage {
         driver.findElement(By.id("finish")).click();
     }
 
+    public void checkoutEmptyField(){
+        driver.findElement(By.id("checkout")).click();
+        driver.findElement(By.id("continue")).click();
+    }
+
+    public void checkoutCancellation(){
+        driver.findElement(By.id("checkout")).click();
+        driver.findElement(By.id("cancel")).click();
+    }
+
+    public boolean isErrorMessageDisplayedWithEmptyField () {
+        return driver.findElement(By.cssSelector(".error-message-container")).isDisplayed();
+    }
+
     public boolean isOrderSuccessful() {
         return driver.findElement( By.className("complete-header")).isDisplayed();
     }
