@@ -16,8 +16,8 @@ The project focuses on automating tests for the **Swag-Labs Web Application** us
 
 ![TestResult](https://github.com/user-attachments/assets/960ffee5-e5e9-4f3c-8ac4-3cf74621638e)
 
-## 2. Bug Report for FIL Goal Application
-This repository also includes a **bug report** for the **FIL Goal Application**, which lists bugs found during testing.
+## 2. Bug Report for FilGoal Application
+This repository also includes a **bug report** for the **FilGoal Application**, which lists bugs found during testing.
 
 ### Bug List:
 You can find the full list of identified bugs in the **`bugs_list.md`** file. The bugs include detailed descriptions, steps to reproduce, severity, priority, environment and status.
