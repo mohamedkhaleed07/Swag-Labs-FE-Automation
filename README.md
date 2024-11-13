@@ -13,8 +13,8 @@ The project focuses on automating tests for the **Swag-Labs Web Application**. I
 
 **Test Result**
 
+![TestResult](https://github.com/user-attachments/assets/e19d3b86-014a-4118-97b0-ba2abfbfea17)
 
-![TestResult](https://github.com/user-attachments/assets/960ffee5-e5e9-4f3c-8ac4-3cf74621638e)
 
 ## 2. Bug Report for FilGoal Application
 This repository also includes a **bug report** for the **FilGoal Application**, which lists bugs found during testing.
